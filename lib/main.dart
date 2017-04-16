@@ -14,13 +14,6 @@ class MyApp extends StatefulWidget {
 
 class MyAppState extends State<MyApp> {
 
-  Route<Null> _getRoute(RouteSettings settings) {
-    final List<String> path = settings.name.split('/');
-    if (path[0] != '') {
-      return null;
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -31,7 +24,7 @@ class MyAppState extends State<MyApp> {
         primaryColor: Colors.blueGrey,
         canvasColor: const Color(0xFF263248),
         accentColor: Colors.red,
-        textTheme: new ThemeData.dark().textTheme,
+//        textTheme: new ThemeData.dark().textTheme,
       ),
         home: new MyHomePage(title: 'Strange Questions'),
       routes: <String, WidgetBuilder> {
