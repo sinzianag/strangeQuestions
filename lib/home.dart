@@ -18,6 +18,10 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void _handleShowSettings() {
+    Navigator.popAndPushNamed(context, '/settings');
+  }
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -27,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: new FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _handleShowSettings,
         tooltip: 'Increment',
         child: new Icon(Icons.arrow_forward),
       ), // This trailing comma makes auto-formatting nicer for build methods.
