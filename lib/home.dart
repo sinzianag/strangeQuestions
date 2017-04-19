@@ -56,8 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: buildAppBar(),
       body: new Center(
         child: new Text(
-          'Button clicked $_counter time${ _counter == 1 ? '' : 's' }.',
-          style: new ThemeData.dark().textTheme.body1,
+          'Strange Questions',
+          style: new ThemeData.dark().textTheme.title,
         ),
       ),
       floatingActionButton: new FloatingActionButton(
