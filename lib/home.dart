@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 enum _QuestionMenuItem { how, about }
 
 class MyHomePage extends StatefulWidget {
@@ -30,23 +29,25 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget buildAppBar() {
-      return new AppBar(
+    return new AppBar(
         elevation: 0,
-          backgroundColor: new Color(0xFF263248),
+        backgroundColor: new Color(0xFF263248),
         actions: <Widget>[
           new PopupMenuButton<_QuestionMenuItem>(
-            onSelected: (_QuestionMenuItem value) {_handleMenu(context, value);},
-            itemBuilder: (BuildContext context) => <PopupMenuItem<_QuestionMenuItem>>[
-              new PopupMenuItem<_QuestionMenuItem>(
-                  value: _QuestionMenuItem.how,
-                  child: const Text('How this works')),
-              new PopupMenuItem<_QuestionMenuItem>(
-                  value: _QuestionMenuItem.about,
-                  child: const Text('About'))
-            ],
+            onSelected: (_QuestionMenuItem value) {
+              _handleMenu(context, value);
+            },
+            itemBuilder: (BuildContext context) =>
+                <PopupMenuItem<_QuestionMenuItem>>[
+                  new PopupMenuItem<_QuestionMenuItem>(
+                      value: _QuestionMenuItem.how,
+                      child: const Text('How this works')),
+                  new PopupMenuItem<_QuestionMenuItem>(
+                      value: _QuestionMenuItem.about,
+                      child: const Text('About'))
+                ],
           ),
-        ]
-      );
+        ]);
   }
 
   @override
