@@ -25,23 +25,19 @@ The questions are selected at random and they are regularly updated to keep the 
 
 ### Prerequisits
 
-1. Install Dart
+#### 1. Install Dart
 
-Install Dart on Windows: https://www.dartlang.org/install/windows
+* Install Dart on Windows: https://www.dartlang.org/install/windows
+* Install Dart on Mac: https://www.dartlang.org/install/mac
+* Install Dart on Linux: https://www.dartlang.org/install/linux
 
-Install Dart on Mac: https://www.dartlang.org/install/mac
+#### 2. Install Flutter
 
-Install Dart on Linux: https://www.dartlang.org/install/linux
+* Install Flutter on Windows: https://flutter.io/setup-macos/
+* Install Flutter on Mac: https://flutter.io/setup-windows/
+* Install Flutter on Linux: https://flutter.io/setup-linux/
 
-2. Install Flutter
-
-Install Flutter on Windows: https://flutter.io/setup-macos/
-
-Install Flutter on Mac: https://flutter.io/setup-windows/
-
-Install Flutter on Linux: https://flutter.io/setup-linux/
-
-3. Run Flutter Doctor and make sure you have all the dependencies
+#### 3. Run Flutter Doctor and make sure you have all the dependencies
 
 ```shell
 $> flutter doctor
