@@ -1,5 +1,7 @@
 # Strange Questions
 
+## Description
+
 Strange Questions is an app designed to start interesting conversations. 
 
 It's a mix between "shower thoughts" and lateral thinking, with big questions and small questions about the world around us and the choices that we make every day. 
@@ -26,13 +28,17 @@ The questions are selected at random and they are regularly updated to keep the 
 1. Install Dart
 
 Install Dart on Windows: https://www.dartlang.org/install/windows
+
 Install Dart on Mac: https://www.dartlang.org/install/mac
+
 Install Dart on Linux: https://www.dartlang.org/install/linux
 
 2. Install Flutter
 
 Install Flutter on Windows: https://flutter.io/setup-macos/
+
 Install Flutter on Mac: https://flutter.io/setup-windows/
+
 Install Flutter on Linux: https://flutter.io/setup-linux/
 
 3. Run Flutter Doctor and make sure you have all the dependencies
@@ -48,6 +54,7 @@ You can either run the application using the command line running:
 ```shell
 $> flutter run
 ```
+
 Or from the IDE ( for that check out the instructions here: https://flutter.io/intellij-setup/ )
 
 ## App Structure
@@ -56,12 +63,14 @@ The app is very simple and driven by Flutter's widget model.
 There are 3 main widgets: Main, About and Question screen. 
 
 ### Build with
+
 * [dart lang](https://www.dartlang.org/)
 * [flutter](https://flutter.io/)
 
 ## Testing
 
 The app is using the Flutter test framework.
+
 More details on the framework here: https://flutter.io/testing/
 
 To run the tests:
